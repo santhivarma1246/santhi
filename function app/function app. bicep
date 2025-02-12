@@ -19,8 +19,8 @@ param appInsightsLocation string
 @description('The language worker runtime to load in the function app.')
 @allowed([
   'node'
-  'dotnet'
-  'java'
+  
+'
 ])
 param runtime string = 'node'
 
